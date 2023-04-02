@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headbar {
+    display: flex;
+}
+
+.rightHead {
+    width: 50%;
+    text-align: right;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+aside {
+    /* list-style: none;
+    text-decoration: none; */
+    width: 20%;
+    max-width: 30%;
+}
+
+.navList {
+
+}
+
+.navList li {
+
+}
+
+.navList li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(128, 127, 127);
+}
+
+.navList li a:hover{
+    color: blue;
+}
+
+.navList li a:visited {
+    color: black;
+    font-weight: bolder;
+}
+
+main {
+    width: 80%;
+    min-width: 60%;
+}
+
+.weeklyContent {
+    margin-right: 10px;
+    border: 2px solid rgb(106, 105, 105);
+}
+
+.firstPartOfWeek {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondPartOfWeek {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 20px 0px 10px 10px;
+}
+
+.material-symbols-outlined {
+    font-size: 20px;
+    /* margin: 0px; */
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.box1 {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border-left: 4px solid green;
+}
+
+.box2 {
+    border: 3px solid rgb(200, 198, 198);
+    border-radius: 5px;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 0px 8px 0px 4px;
+    margin: 15px;
+
+}
+
+.box3 {
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.box4 {}
+
+.box5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.one, .two{
+    display: flex;
+    /* border: 2px solid rgb(173, 171, 171); */
+    border-radius: 7px;
+    background-color: rgb(228, 226, 226);
+    margin: 10px;
+    padding: 0px 10px ;
+
+}
+
+/* .two {
+    display: flex;
+    border: 2px solid rgb(173, 171, 171);
+    border-radius: 7px;
+    background-color: rgb(173, 171, 171);
+    margin: 10px;
+    padding: 0px 30px;
+} */
+.firstPartOfCalender{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    margin: 20px 10px 20px 0px;
+    border: 2px solid rgb(106, 105, 105);
+    padding: 20px 15px ;
+
+}
+.cal2{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.left, .right{
+    border: 2px solid rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228);
+    border-radius: 100%;
+    padding: 0 10px;
+    margin: 15px 10px 15px 0px;
+    
+}
+.cal2 .address{
+    border: 3px solid rgb(200, 198, 198);
+    border-radius: 5px;
+    /* background-color: rgb(255, 255, 255); */
+    padding-right: 8px;
+    padding-bottom: 10px;
+    margin: 5px 0px;
+    /* margin-right: 0; */
+    /* align-content: center; */
+    /* justify-content: center; */
+}
+.calendar{
+    margin: 20px 10px 20px 0px;
+    border: 2px solid rgb(106, 105, 105);
+    padding: 20px 15px ;
+
+}
+.calendar{
+    width:100%;
+    display: grid;
+
+}
+.row{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* padding: 20px; */
+}
+.design{
+    border-right: 2px solid rgb(106, 105, 105);
+    border-bottom: 2px solid rgb(106, 105, 105);
+    padding: 20px;
+}
